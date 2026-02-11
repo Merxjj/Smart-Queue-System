@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Queue System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Queue Management</h1>
+
+<form id="queueForm">
+    <input type="text" id="name" placeholder="Enter Name" required>
+    <select id="service">
+        <option value="Doctor">Doctor</option>
+        <option value="Billing">Billing</option>
+        <option value="Inquiry">Inquiry</option>
+    </select>
+    <button type="submit">Get Token</button>
+</form>
+
+<h2 id="tokenDisplay"></h2>
+
+<h3>Current Queue:</h3>
+<ul id="queueList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
