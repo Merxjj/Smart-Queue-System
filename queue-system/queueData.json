@@ -1,8 +1,14 @@
 [
   {
     "token": 1,
-    "name": "meraj",
+    "name": "nitin",
     "service": "Doctor",
     "status": "served"
+  },
+  {
+    "token": 2,
+    "name": "meraj",
+    "service": "Doctor",
+    "status": "waiting"
   }
 ]
